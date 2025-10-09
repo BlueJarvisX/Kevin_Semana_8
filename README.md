@@ -18,7 +18,17 @@ Es una aplicación simple para mostrar un mapa de google maps con la localizaci�
 8. Seleccionar el botón de Google Maps para ver tu ubicación y puedes agregar marcadores en diferentes sitios.
 
 ## Implemetanción
-Implementamos 2 dependecias una de maps y otra de location con sus versiones correspondientes
-Utilizamos una api key valida de google console
-Implementamos ViewMap que sin ella no podriamos ver el mapa
+Implementamos 2 dependecias una de maps y otra de location con sus versiones correspondientes.
+Utilizamos una api key valida de google console.
+Implementamos ViewMap que sin ella no podriamos ver el mapa.
 Damos permisos necesarios como el permiso de Internet, etc.
+
+
+## Instalación en el dispositivo android
+Si quiere descargar mi aplicación en su celular, primero debe ir a "Build", después a "Generate App Bundles or APKs" y cuando ya estemos ahí le damos a "Generate APKs"
+Al momento de darle clic, estará activado el modo: Gradle build running, debe esperar unos minutos, 
+hasta que le aparezca el siguiente mensaje: Generate APKs Build completed successfully for 1 module.....
+saldrán 2 palabras de color azul, debe darle clic a "locate" ya cuando se le ha dado clic se abrira una carpeta.
+En donde se encontrará un archivo con este nombre preterminado: app-debug.apk
+En ese instante puede dezpalzar ese archivo, por ejemplo a su WhatsAppm y instala finalmente la aplicación.
+Por supuesto que su celular debe ser Android.
